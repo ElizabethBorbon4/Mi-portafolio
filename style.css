@@ -1,0 +1,78 @@
+body{
+    background-color: antiquewhite;
+}
+.titulo{
+    height: 350px;
+    width: 1650px;
+    background-image: url(vintage.jpg);
+    position:sticky;
+    background-attachment:inherit;
+    background-size:110vw 90vh;
+    padding: 10px;
+    opacity: 0.8;
+    padding left:  30px;
+    margin: auto;
+}
+.ti{
+    font-size: 30px;
+    padding-left: 670px;
+    padding-top: 40px;
+    
+}
+h2{
+    text-align:center;
+    padding-top: 100px;
+    font-size: 60px;
+    color:rgb(69, 39, 28);
+    padding-left: 10px;
+}
+h3{
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 20px;
+
+}
+p, .lista {
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 20px;
+
+}
+#imagen1{
+    border-radius: 3%;
+    width:450px;
+    height: 550px;
+    float: right;
+    padding-right: 20px;
+    
+}
+p.margen{
+    padding-right: 500px;
+}
+.titulo2{
+    height:50px;
+    width: 1320x;
+    background-image: url(vintage%20-%20copia1.jpg);
+    position:sticky;
+    background-attachment:inherit;
+    background-size:100vw 80vh;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+#image{
+     border-radius: 3%; 
+}
+.container{
+    padding-left: 220px;
+    padding-right: 40px;
+    word-spacing: 20px;
+}
+#image{
+     border-radius: 3%; 
+}
+.container2{
+    padding-left: 80px;
+    padding-right: 40px;
+    word-spacing: 20px;
+}
