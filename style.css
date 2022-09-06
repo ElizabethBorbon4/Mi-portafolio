@@ -1,125 +1,108 @@
 body{
-    background-color:ghostwhite;
-    font-family: Arial,sans-serif;
-    padding: 0 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
-.menu-item1{
-    font-size:13px;
-    color: rgba(0,0,0.87);
-    text-decoration: none;
-    position:relative;
-    top:-8px;
-    margin-right: 16px;
+.form-container{
+    background-color: white;
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 90%
+    display:flex;
+    align-items: center;
 }
-.menu-item{
-    text-decoration: underline;
-    
-}
-h1{
+.form-container .login-container > h2{
     text-align: center;
-    font-family:sans-serif;
-    word-spacing: 2px;
-    font-size: 40px;
+    font-size:2.5rem;  
 }
-.m{
-    width: 500px;
-    height: 350px;
+.form-container .login-container > p,
+.form-container .login-container > span{
+    text-align: center;
+    color;#555;
 }
-.l{
-    display: inline;
-    border: 100px; 
-}
-.menu-item{
+.form-container .login-container label{
     display: block;
-    display: none;
-    visibility: hidden;
+    font-weight: bold;
+    padding: 5px 0;
 }
-.profile-pic {
-    width="48px";
-    height: ="48px";
-}
-nav{
-    text-align: right;
-}
-#dropdown-menu{
-    position: relative;
-    top:-10px;
-    margin-right: 16px;
-}
-section{
-    text-align: center;
-    padding-top: 10%;
-    
-}
-#search-box{
+.form-container .login-container input.input{
+    display: block;
     width: 100%;
-    color: #222;
-    border: 1px solid #dfe1e5;
-    font-size:13px;
-    padding: 14px;
-    border-radius: 24px;
-    outline: none;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    box-sizing: border-box;
+    padding: 10px;
+    border:solid 1px #ccc;
+    border-radius:5px;
+}
+.form-container .login-container input.input:focus{
+    outline: solid 2px #0099ff;
+}
+.form-container .login-container .options{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#search-box: hover{
-    box-shadow: 0 1px 6px 0 rgba(3, 33,36, 0.28);
-    border-color: rgba (223, 225, 229, 0);
+.form-container a{
+    color:#0099ff;
+    text-decoration:none;
 }
-#search-box:focus {
-    box-shadow: 0 1px 6px 0 rgba(3, 33,36, 0.28);
-    border-color: rgba (223, 225, 229, 0);
+.form-container a:hover{
+    text-decoration:underline;
+}
+.form-container .login-container .providers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top:30px;
+}
+.btn{
+    border:none;
+    padding:15px 0;
+    width: 100%;
+    font-weight: bolder;
+    display:block;
+    border-radius:5px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.btn.btn-login{
+    background-color: black;
+    color:white;
+}
+.btn.btn-login:hover{
+    background-color: #444;
     
 }
-#input-wrapper{
-    position:relative;
-    width:582px;
-    display: inline-block;
+.btn.btn-Facebook{
+    background-color: rgb(10, 82,216);
+    color:white;
 }
-#input-wrapper > img {
-    position:absolute;
-    top:30px;
-    right: 0;
-    width: 28px;
+.btn.btn-Facebook:hover{
+    background-color: rgb(4, 62,16);
 }
-.custom-btn{
-    background-color: #f2f2f2;
-    color:#5F6368;
-    font-size:14px;
-    height: 36px;
-    padding: 0 16px;
-    background-image: linear-gradient(top,#f5f5f5, #f1f1f1) ;
-    border; 1px solid transparent;
-    box-shadow:0 1px 1px rgba(0,0,0,0);
-    color: #222;
+.btn.btn-google{
+    background-color: white;
+    color:black;
+    border:solid 1px #ccc;
 }
-.custom-btn:hover{
-    background-image: linear-gradient(top, #f8f8f8, #f1f1f1) ;
-    border; 1px solid #c6c6c6;
-    box-shadow:0 1px 1px rgba(0,0,0,0.1);
-    color: #222;
+.btn.btn-google:hover{
+background-color:wheat;
 }
-.custom-btn: first-of-type {
-    margin-right:16px;
+.btn.btn-twitter{
+    background-color: rgb(10, 168,216);
+    color:white
 }
-app-dropdown{
-    width: 285px;
-    padding:28px;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+.btn.btn-twitter:hover{
+    background-color: rgb(4, 68,216);
 }
-.app-item {
-    display:inline-bliock;
-    width:84px;
-    margin-bottom: 18px;
-}
-.app-item >img {
-    width:50px;
-    height: 50px;
-}
-.app-item >p {
-    color: rgba(0,0,0,0.87);
-    margin:0;
-    padding-top:8px;
+.form-container .welcome-scream-container{
+    background-color: black;
+    height: 100%;
+    width: 50%;
 }
